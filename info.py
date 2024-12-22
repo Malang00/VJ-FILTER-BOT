@@ -69,7 +69,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Malangmovie3')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Malangmovie')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_OpenLink')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_OpenLink')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Malang_moviebot') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Malangmovie4') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
