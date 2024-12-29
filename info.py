@@ -72,8 +72,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_OpenLink')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Malangmovie4') # Support Chat Link Without https:// or @
 
 # True Or False
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 VERIFY = bool(environ.get('VERIFY', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
