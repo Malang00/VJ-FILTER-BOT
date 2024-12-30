@@ -73,9 +73,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Malangmovie4') # Support Chat Link W
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-VERIFY = bool(environ.get('VERIFY', True))
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+VERIFY = bool(environ.get('VERIFY', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
